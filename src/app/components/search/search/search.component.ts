@@ -27,7 +27,7 @@ export class SearchComponent implements OnInit  {
           this.spotifydata = data;
         
 
-          console.log(data);
+        
         } 
       });
     } 

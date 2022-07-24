@@ -36,7 +36,7 @@ export class SongsComponent implements OnInit {
       .subscribe({
         next:(data) =>{
           this.songs = data;
-          console.log(this.songs);
+         
         } 
       });
     //albums from server
@@ -44,7 +44,7 @@ export class SongsComponent implements OnInit {
       .subscribe({
         next:(data) =>{
           this.album = data;
-          console.log(this.album);
+          
         } 
       });
 
