@@ -1,0 +1,10 @@
+.search-container input {
+    margin-bottom: 40px;
+}
+
+.search-container {
+    max-width: 1150px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+ } 
